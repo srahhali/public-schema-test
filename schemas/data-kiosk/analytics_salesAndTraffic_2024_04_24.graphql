@@ -6,7 +6,7 @@ schema {
 This directive specifies the retention duration of a query containing a
 particular field. When a query contains multiple fields with different
 retentions, the shortest (minimum) retention is applied to the query. The
-retention of a query's resulting documents always matches the retention of the query.
+retention of a query's resulting documents always matches the retention of the query
 """
 directive @resultRetention(
     "An ISO 8601 duration."
